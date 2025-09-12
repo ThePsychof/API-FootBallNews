@@ -1,0 +1,118 @@
+/* ======================
+   Panel Base Styles
+====================== */
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: rgba(17, 17, 17, 0.85);
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+/* ======================
+   Panel Header
+====================== */
+.panel-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 10px;
+  background: rgba(34, 34, 34, 0.9);
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+}
+
+.panel-title {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.panel-filters {
+  display: flex;
+  gap: 6px;
+}
+
+.panel-filters select {
+  flex: 1;
+  background: #222;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ======================
+   Panel Content
+====================== */
+.panel-content {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ======================
+   Panel Row (News Item)
+====================== */
+.panel-row {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  transition: background 0.2s;
+  color: #fff;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none; /* so links don’t underline */
+}
+
+.panel-row:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* ======================
+   Show More Button
+====================== */
+
+.panel-row button:hover {
+  background: #333;
+}
+
+/* ======================
+   Left Panel Specific
+====================== */
+.left-panel {
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 900px) {
+  .left-panel {
+    width: 45vw;
+    font-size: 13px;
+  }
+  .panel-row {
+    font-size: 12px;
+    height: 34px;
+  }
+}

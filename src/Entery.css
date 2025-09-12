@@ -1,0 +1,96 @@
+/* Container */
+.box {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* pointer-events: auto; */
+}
+
+.box.inactive {
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* Background & images */
+.Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  object-fit: cover;
+  pointer-events: none; /* prevents clicks from blocking the form */
+}
+
+.Messi, .Ronaldo, .RedFireBall, .BlueFireBall {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none; /* decorative elements don’t block clicks */
+}
+
+/* Messi / Ronaldo scaling */
+.Messi {
+  bottom: 8%;
+  right: 2%;
+  width: clamp(100px, 40%, 400px);
+}
+
+.Ronaldo {
+  bottom: 8%;
+  left: 2%;
+  width: clamp(100px, 42%, 420px);
+}
+
+/* Fireballs */
+.RedFireBall {
+  bottom: 45%;
+  width: clamp(80px, 20%, 250px);
+  z-index: 2;
+  transform: rotate(155deg);
+}
+
+.BlueFireBall {
+  bottom: 45%;
+  width: clamp(80px, 20%, 250px);
+  z-index: 2;
+  transform: rotate(35deg);
+}
+
+/* Entry form (clickable!) */
+.entry-form {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 200px;
+  max-width: 400px;
+  z-index: 9999; /* above everything */
+}
+
+/* Inputs */
+.entry-form input {
+  padding: 8px;
+  border-radius: 7px;
+  border: none;
+  position: relative;
+  font-size: 2vh;
+}
+
+/* Button */
+.entry-form button {
+  padding: 10px;
+  border-radius: 8px;
+  background: #ff4500;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}

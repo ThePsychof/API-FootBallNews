@@ -1,0 +1,8 @@
+[
+  { "id": 1, "title": "Breaking: Local team wins!", "url": "https://example.com/news1" },
+  { "id": 2, "title": "Top player transfers announced", "url": "https://example.com/news2" },
+  { "id": 3, "title": "Match postponed due to weather", "url": "https://example.com/news3" },
+  { "id": 4, "title": "New stadium opens in city", "url": "https://example.com/news4" },
+  { "id": 5, "title": "Coach announces retirement", "url": "https://example.com/news5" },
+  { "id": 6, "title": "Championship highlights and stats", "url": "https://example.com/news6" }
+]

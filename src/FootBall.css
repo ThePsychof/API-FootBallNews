@@ -1,0 +1,26 @@
+.back {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.ball {
+    position: absolute;
+    width: 55%;
+    z-index: 1;
+}
+.Ring1 {
+    position: absolute;
+    width: 55%;
+    z-index: 0;
+}
+.Ring2 {
+    position: absolute;
+    width: 55%;
+    z-index: 2;
+    transform: scaleX(-1);
+}

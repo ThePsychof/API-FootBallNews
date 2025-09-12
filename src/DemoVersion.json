@@ -1,0 +1,108 @@
+[
+  {
+    "fixture": {
+      "id": 101,
+      "date": "2025-09-11T20:00:00Z",
+      "status": { "long": "Scheduled" },
+      "league": { "id": "pl", "name": "Premier League" }
+    },
+    "teams": {
+      "home": {
+        "id": 1,
+        "name": "Manchester United",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Manchester%20United.png?raw=true"
+      },
+      "away": {
+        "id": 2,
+        "name": "Chelsea",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png?raw=true"
+      }
+    },
+    "goals": { "home": 2, "away": 1 }
+  },
+  {
+    "fixture": {
+      "id": 102,
+      "date": "2025-09-12T18:30:00Z",
+      "status": { "long": "Scheduled" },
+      "league": { "id": "la", "name": "La Liga" }
+    },
+    "teams": {
+      "home": {
+        "id": 3,
+        "name": "Real Madrid",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png?raw=true"
+      },
+      "away": {
+        "id": 4,
+        "name": "Barcelona",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png?raw=true"
+      }
+    },
+    "goals": { "home": 1, "away": 1 }
+  },
+  {
+    "fixture": {
+      "id": 103,
+      "date": "2025-09-13T20:00:00Z",
+      "status": { "long": "Scheduled" },
+      "league": { "id": "bundesliga", "name": "Bundesliga" }
+    },
+    "teams": {
+      "home": {
+        "id": 5,
+        "name": "Bayern Munich",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png?raw=true"
+      },
+      "away": {
+        "id": 6,
+        "name": "Borussia Dortmund",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png?raw=true"
+      }
+    },
+    "goals": { "home": 3, "away": 2 }
+  },
+  {
+    "fixture": {
+      "id": 104,
+      "date": "2025-09-14T17:30:00Z",
+      "status": { "long": "Scheduled" },
+      "league": { "id": "seriea", "name": "Serie A" }
+    },
+    "teams": {
+      "home": {
+        "id": 7,
+        "name": "Juventus",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png?raw=true"
+      },
+      "away": {
+        "id": 8,
+        "name": "AC Milan",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png?raw=true"
+      }
+    },
+    "goals": { "home": 2, "away": 2 }
+  },
+  {
+    "fixture": {
+      "id": 105,
+      "date": "2025-09-15T19:00:00Z",
+      "status": { "long": "Scheduled" },
+      "league": { "id": "ligue1", "name": "Ligue 1" }
+    },
+    "teams": {
+      "home": {
+        "id": 9,
+        "name": "Paris Saint-Germain",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png?raw=true"
+      },
+      "away": {
+        "id": 10,
+        "name": "Olympique Lyonnais",
+        "logo": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png?raw=true"
+      }
+    },
+    "goals": { "home": 4, "away": 1 }
+  }
+]
+
