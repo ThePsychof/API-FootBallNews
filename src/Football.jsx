@@ -39,7 +39,7 @@ function Football(apiToken1, newsApiUrl1, apiToken2, newsApiUrl2) {
       {/* Big ball */}
       <motion.img
         ref={ballref}
-        src={Ball}
+        src={ball}
         alt="ball"
         className="ball"
         initial={{ opacity: 0 }}
