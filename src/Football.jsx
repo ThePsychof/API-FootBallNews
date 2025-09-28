@@ -1,6 +1,6 @@
 import FireSplash from "./FireSplash";
 import { motion, animate, useMotionValue } from "framer-motion";
-import Ball from "./assets/Ball.png";
+import ball from "./assets/ball.png";
 import Ring from "./assets/Ring.png";
 import "./FootBall.css";
 import RightPanel from "./RightPanel";
