@@ -2,7 +2,7 @@ import FireSplash from "./FireSplash";
 import { motion, animate, useMotionValue } from "framer-motion";
 import Ball from "./assets/Ball.png";
 import Ring from "./assets/Ring.png";
-import "./Football.css";
+import "./FootBall.css";
 import RightPanel from "./RightPanel";
 import LeftPanel from "./LeftPanel";
 import { useRef, useEffect } from "react";
