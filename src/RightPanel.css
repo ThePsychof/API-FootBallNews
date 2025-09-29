@@ -169,7 +169,7 @@
 /* --- Responsive --- */
 @media (max-width: 900px) {
   .right-panel {
-    width: 45vw;
+    width: 50vw;
     font-size: 13px;
   }
   .team-logo {
