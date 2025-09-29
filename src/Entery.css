@@ -61,7 +61,7 @@
 /* Entry form (clickable!) */
 .entry-form {
   position: absolute;
-  bottom: 7%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
